@@ -58,11 +58,11 @@ export default function Hero() {
           delay: 2.2,
           ease: "easeOut",
         }}
-        className="flex mt-5 gap-6"
+        className="flex flex-col md:flex-row mt-5 gap-6"
       >
         <a
           href="#contato"
-          className="bg-[#B08D63] hover:bg-[#C6A77B] transition duration-300 cursor-pointer px-6 py-3 rounded-full"
+          className="bg-[#B08D63] hover:bg-[#C6A77B] transition duration-300 cursor-pointer px-6 py-3 rounded-full text-center"
         >
           Reservar Avaliação
         </a>

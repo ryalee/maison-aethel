@@ -31,10 +31,10 @@ export default function Home() {
         <Contato/>
       </main>
 
-      <footer className="bg-[#F7F3EE] py-8 md:py-15 mt-20 px-10 flex  flex-col md:flex-row justify-between items-center text-[#00000083] gap-5">
-        <h1 className="text-3xl title text-[#]">Aethel Estética</h1>
+      <footer className="bg-[#F7F3EE] w-full self-center py-8 md:py-15 mt-20 px-10 flex  flex-col md:flex-row justify-between items-center text-[#00000083] gap-5">
+        <h1 className="text-3xl title">Aethel Estética</h1>
 
-        <nav className="w-lg text-sm flex uppercase justify-around md:justify-between">
+        <nav className="w-full text-sm flex uppercase justify-around md:justify-between">
           <a>instagram</a>
           <a>membro vip</a>
           <a>privacidade</a>
