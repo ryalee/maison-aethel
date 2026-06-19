@@ -8,3 +8,11 @@
 .title {
   font-family: var(--font-serif);
 }
+
+a, button {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: 0;
+}
