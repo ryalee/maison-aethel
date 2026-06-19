@@ -34,12 +34,12 @@ const services = [
 export default function Services() {
   return (
     <section className="px-20 mb-60" id="tratamentos">
-      <div className="flex justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
         <div>
           <p className="text-[#C6A77B] uppercase font-medium">
             protocolo de assinatura
           </p>
-          <h1 className="italic text-5xl">
+          <h1 className="italic text-4xl md:text-5xl">
             Cada tratamento <br /> é uma jornada única.
           </h1>
         </div>
@@ -52,7 +52,7 @@ export default function Services() {
         </a>
       </div>
 
-      <div className="grid grid-cols-3 mt-30 gap-10">
+      <div className="grid md:grid-cols-3 mt-30 gap-10">
         {services.map((item, index) => (
           <div key={index}>
             <Image

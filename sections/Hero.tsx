@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col px-15 inset-0 h-full w-full -z-5 mb-80">
+    <section className="flex flex-col px-15 inset-0 h-full w-full -z-5 mb-60 md:mb-80">
       <div className="absolute flex inset-0 h-full w-full bg-black/40 -z-5" />
 
       <video
@@ -20,7 +20,7 @@ export default function Hero() {
         <source src="/hero_video.mp4" type="video/mp4" />
       </video>
 
-      <div className="flex flex-col items-start mt-30 gap-8">
+      <div className="z-10 flex flex-col items-start mt-15 md:mt-30 gap-8">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -29,7 +29,7 @@ export default function Hero() {
             delay: 0.8,
             ease: "easeOut",
           }}
-          className="text-8xl title text-[#efefef]"
+          className="text-7xl md:text-8xl title text-[#efefef]"
         >
           A arte da pele <br /> em seu estado mais puro
         </motion.h1>

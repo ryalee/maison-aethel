@@ -21,15 +21,15 @@ const feedbacks = [
 export default function Testimonials() {
   return (
     <section className="bg-[#F7F3EE] py-60">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center text-center">
         <p className="text-[#C6A77B] uppercase font-medium">Vozes da Aethel</p>
         <h3 className='title text-6xl'>Confiança que se <span className="italic">renova </span>a cada visita.</h3>
       </div>
 
-      <div className="flex w-full justify-evenly mt-15">
+      <div className="flex flex-col md:flex-row w-full gap-20 justify-evenly mt-15">
         {feedbacks.map((item, index) => (
-          <article key={index} className='w-[40%] flex flex-col'>
-            <p className='text-3xl mb-5'>
+          <article key={index} className='px-12 md:w-[40%] flex flex-col'>
+            <p className='text-2xl md:text-3xl mb-5'>
               {item.mensagem}
             </p>
 

@@ -9,16 +9,16 @@ export default function Home() {
   return (
     <>
       <header className="flex py-6 px-8 justify-between items-center z-10 text-[#efefef]">
-        <h1 className="text-3xl title text-[#]">Aethel Estética</h1>
+        <h1 className="text-3xl title">Aethel Estética</h1>
 
-        <nav className="w-lg flex uppercase justify-between">
+        <nav className="w-lg hidden md:flex uppercase justify-between">
           <a href="#filosofia" className="hover:text-[#fce1c1] transition duration-300">filosofia</a>
           <a href="#tratamentos" className="hover:text-[#fce1c1] transition duration-300">tratamentos</a>
           <a href="#membrovip" className="hover:text-[#fce1c1] transition duration-300">membro vip</a>
           <a href="#contato" className="hover:text-[#fce1c1] transition duration-300">contato</a>
         </nav>  
 
-        <a href="#contato" className="border border-[#f0eaea] rounded-full text-sm cursor-pointer py-2 px-6 hover:bg-[#C6A77B] hover:text-black hover:border-none transition duration-400">
+        <a href="#contato" className="w-29 text-center md:w-auto border border-[#f0eaea] rounded-full text-sm cursor-pointer py-2 px-6 hover:bg-[#C6A77B] hover:text-black hover:border-none transition duration-400">
           Agendar Consulta
         </a>
       </header>
@@ -31,16 +31,16 @@ export default function Home() {
         <Contato/>
       </main>
 
-      <footer className="bg-[#F7F3EE] py-15 mt-20 px-10 flex justify-between items-center text-[#00000083]">
+      <footer className="bg-[#F7F3EE] py-8 md:py-15 mt-20 px-10 flex  flex-col md:flex-row justify-between items-center text-[#00000083] gap-5">
         <h1 className="text-3xl title text-[#]">Aethel Estética</h1>
 
-        <nav className="w-lg text-sm flex uppercase justify-between">
+        <nav className="w-lg text-sm flex uppercase justify-around md:justify-between">
           <a>instagram</a>
           <a>membro vip</a>
           <a>privacidade</a>
         </nav> 
 
-        <p>&copy; {new Date().getFullYear()} Todos os direitos reservados</p>
+        <p className="">&copy; {new Date().getFullYear()} Todos os direitos reservados</p>
       </footer>
     </>
   );

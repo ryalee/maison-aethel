@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Contato() {
   return (
-    <section className="p-25 flex justify-around">
-      <article>
+    <section className="p-15 md:p-25 flex flex-col md:flex-row gap-20 md:gap-0 justify-around">
+      <article className="flex flex-col">
         <div className="mb-10">
           <p className="text-[#C6A77B] uppercase font-medium">Reserve sua experiência</p>
           <h3 className='title text-6xl'>Inicie sua jornada <br /> de <span className="italic">transformação.</span></h3>
@@ -32,16 +32,16 @@ export default function Contato() {
         </div>
       </article>
 
-      <article className="bg-[#F7F3EE] w-[40%] p-10 rounded-2xl shadow-[0px_0px_24px_5px_#a5a5a53e]">
+      <article className="bg-[#F7F3EE] md:w-[40%] p-10 rounded-2xl shadow-[0px_0px_24px_5px_#a5a5a53e]">
         <form className="flex flex-col">
           <label className="uppercase font-medium text-[#0000006d]">nome completo</label>
-          <input type="text" placeholder="Ex: Sofia Alencar" className="border-b border-[#0000006d]"/>
+          <input type="text" placeholder="Ex: Sofia Alencar" className="border-b border-[#0000006d] pt-2"/>
 
           <label className="uppercase mt-5 font-medium text-[#0000006d]">E-MAIL</label>
-          <input type="email" placeholder="sofia@email.com" className="border-b border-[#0000006d]"/>
+          <input type="email" placeholder="sofia@email.com" className="border-b border-[#0000006d] pt-2"/>
 
           <label className="uppercase mt-5 font-medium text-[#0000006d]">telefone</label>
-          <input type="tel" placeholder="(11) 90000-0000" className="border-b border-[#0000006d]"/>
+          <input type="tel" placeholder="(11) 90000-0000" className="border-b border-[#0000006d] pt-2"/>
 
           <label className="uppercase mt-5 font-medium text-[#0000006d]">interesse</label>
           <select className="border-b border-[#0000006d]">
