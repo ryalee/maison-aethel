@@ -41,6 +41,7 @@ export default function Home() {
         </nav> 
 
         <p className="">&copy; {new Date().getFullYear()} Todos os direitos reservados</p>
+        <p>Desenvolvido por <a className="text-[#ffc300] font-semibold">Zunbee</a></p>
       </footer>
     </>
   );
