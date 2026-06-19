@@ -14,7 +14,7 @@ const quicksand = Quicksand({
 
 export const metadata: Metadata = {
   title: "Aethel | Estética",
-  description: description:
+  description:
   "Clínica de estética especializada em tratamentos faciais e corporais que valorizam sua beleza natural. Protocolos personalizados, tecnologia avançada e uma experiência exclusiva voltada ao bem-estar e à confiança.",
 };
 
