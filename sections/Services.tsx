@@ -24,9 +24,9 @@ const services = [
     id: 3,
     image: "/injectable.jpeg",
     type: "Injetáveis",
-    title: "Drenagem Silk & Stone",
+    title: "Harmonização Minimalista",
     description:
-      "Técnica manual exclusiva com infusão de óleos de seda e pedras aquecidas para modelar e acolher.",
+      "Intervenções sutis focadas na arquitetura natural do seu rosto.",
     price: "Sob avaliação",
   },
 ];
@@ -65,7 +65,9 @@ export default function Services() {
             />
 
             <div className="flex flex-col">
-              <p className="text-[#C6A77B] uppercase font-medium mt-5">{item.type}</p>
+              <p className="text-[#C6A77B] uppercase font-medium mt-5">
+                {item.type}
+              </p>
               <h3 className="title text-3xl font-medium mt-5">{item.title}</h3>
               <p className="mb-5">{item.description}</p>
               <p className="uppercase font-medium text-[#444] ">{item.price}</p>
