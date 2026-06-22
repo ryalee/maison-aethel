@@ -7,7 +7,7 @@ export default function Contato() {
       <article className="flex flex-col">
         <div className="mb-10">
           <p className="text-[#C6A77B] uppercase font-medium">Reserve sua experiência</p>
-          <h3 className='title text-6xl'>Inicie sua jornada <br /> de <span className="italic">transformação.</span></h3>
+          <h3 className='title text-5xl md:text-6xl'>Inicie sua jornada <br /> de <span className="italic">transformação.</span></h3>
         </div>
 
         <div>
@@ -20,13 +20,13 @@ export default function Contato() {
           <p className="font-medium text-xl">Segunda a Sexta - 09h às 20h <br /> Sábado - 09h às 13h</p>
         </div>
 
-        <div className="flex items-center gap-5 mt-5">
+        <div className="flex flex-col md:flex-row items-center gap-5 mt-5">
           <a href="#" className="flex items-center gap-2 bg-[#4f8a46] px-5 py-2 text-[#efefef] font-medium rounded-full hover:bg-[#609e57] transition duration-300">
             <MessageCircle/>
             WhatsApp
           </a>
 
-          <a href="#" className="flex items-center gap-2 border-b border-dashed hover:text-[#C6A77B] font-medium transition duration-300">
+          <a href="#" className="text-sm flex items-center gap-2 border-b border-dashed hover:text-[#C6A77B] font-medium transition duration-300">
             contato@aethel.com <ArrowUpRight/>
           </a>
         </div>

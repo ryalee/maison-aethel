@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col px-15 inset-0 h-full w-full -z-5 mb-60 md:mb-80">
+    <section className="flex flex-col px-8 md:px-15 inset-0 h-full w-full -z-5 mb-60 md:mb-80">
       <div className="absolute flex inset-0 h-full w-full bg-black/40 -z-5" />
 
       <video
@@ -20,7 +20,7 @@ export default function Hero() {
         <source src="/hero_video.mp4" type="video/mp4" />
       </video>
 
-      <div className="z-10 flex flex-col items-start mt-15 md:mt-30 gap-8">
+      <div className="z-10 flex flex-col items-start mt-15 md:mt-30 gap-8 w-full">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -29,7 +29,7 @@ export default function Hero() {
             delay: 0.8,
             ease: "easeOut",
           }}
-          className="text-7xl md:text-8xl title text-[#efefef]"
+          className="text-5xl md:text-8xl title text-[#efefef]"
         >
           A arte da pele <br /> em seu estado mais puro
         </motion.h1>
@@ -42,7 +42,7 @@ export default function Hero() {
             delay: 1.6,
             ease: "easeOut",
           }}
-          className="text-lg text-[#ccc]"
+          className="text-2xl text-[#ccc]"
         >
           Um santuário dedicado à preservação da juventude e ao refinamento da{" "}
           <br />
@@ -58,7 +58,7 @@ export default function Hero() {
           delay: 2.2,
           ease: "easeOut",
         }}
-        className="flex flex-col md:flex-row mt-5 gap-6"
+        className="flex flex-col items-center md:flex-row mt-5 gap-6"
       >
         <a
           href="#contato"

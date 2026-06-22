@@ -34,13 +34,13 @@ export default function Home() {
       <footer className="bg-[#F7F3EE] w-full self-center py-8 md:py-15 mt-20 px-10 flex flex-col justify-between items-center text-[#00000083] gap-5">
         <h1 className="text-3xl title">Aethel Estética</h1>
 
-        <nav className="w-full text-sm flex uppercase justify-around md:justify-between">
+        <nav className="w-full text-sm flex uppercase justify-around md:justify-around">
           <a>instagram</a>
           <a>membro vip</a>
           <a>privacidade</a>
         </nav> 
 
-        <p className="">&copy; {new Date().getFullYear()} Todos os direitos reservados</p>
+        <p>&copy; {new Date().getFullYear()} Todos os direitos reservados</p>
         <p>Desenvolvido por <a href="https://www.zunbee.com.br" target="_blank" className="text-[#ffc300] font-bold [text-shadow:1px_1px_1px_#4E4E4E] hover:[text-shadow:1px_1px_2px_#f9db7b] transition-all duration-300">Zunbee 🐝</a></p>
       </footer>
     </>
